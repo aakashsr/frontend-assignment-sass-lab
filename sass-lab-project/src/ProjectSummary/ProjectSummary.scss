@@ -1,0 +1,30 @@
+.container{
+    margin: 0 auto;
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.titleContainer{
+    display: flex;
+}
+
+.itemContainer{
+    display: flex;
+}
+
+.titleContainer > div{
+    width: 30%;
+    border: 1px solid #eee;
+    padding: 8px;
+}
+
+.itemContainer > div{
+    width: 30%;
+    border: 1px solid #eee;
+    padding: 8px;
+}
+
