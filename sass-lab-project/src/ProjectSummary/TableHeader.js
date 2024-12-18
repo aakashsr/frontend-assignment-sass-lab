@@ -1,9 +1,9 @@
 function TableHeader() {
     return (
-        <div className="titleContainer">
-            <div>S.No.</div>
-            <div>Percentage funded</div>
-            <div>Amount Pledged</div>
+        <div className="titleContainer" role="rowgroup">
+            <div role="columnheader">S.No.</div>
+            <div role="columnheader">Percentage funded</div>
+            <div role="columnheader">Amount Pledged</div>
         </div>
     )
 }
