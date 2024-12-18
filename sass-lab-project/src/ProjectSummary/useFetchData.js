@@ -13,7 +13,6 @@ function useFetchData(url) {
                 throw new Error(`HTTP error! Status: ${res.status}`);
             }
             const resJSON = await res.json();
-            console.log("DATA", resJSON);
             setData(resJSON);
         }catch(error){
             setError(error);
